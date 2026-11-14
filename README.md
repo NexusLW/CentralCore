@@ -313,7 +313,7 @@ Licences are HMAC-SHA256 signed keys encoded in Base64 with the format `email|ex
 
 The shell uses a single global licence stored under `centralcore/licences` in Java Prefs. If no active licence is present, the content area is covered by the licence veil until one is added.
 
-Keys can be generated with [Licencing-gen](https://github.com/marius-db/Licencing-gen). Demo licence keys for both included modules are seeded into the database automatically on first run, but those are DB-side records only; the shell licence is a separate key that must be added through the Licences screen.
+Keys can be generated with [Licencing-gen](https://github.com/NexusLW/Licencing-gen). Demo licence keys for both included modules are seeded into the database automatically on first run, but those are DB-side records only; the shell licence is a separate key that must be added through the Licences screen.
 
 ---
 
@@ -375,5 +375,5 @@ Run all tests with:
 
 ## Related repositories
 
-- [TrafficSim](https://github.com/marius-db/TrafficSim) - the Python simulation server that TrafficModule connects to over WebSocket
-- [Licencing-gen](https://github.com/marius-db/Licencing-gen) - the key generator tool for producing valid HMAC-signed licence keys
+- [TrafficSim](https://github.com/NexusLW/TrafficSim) - the Python simulation server that TrafficModule connects to over WebSocket
+- [Licencing-gen](https://github.com/NexusLW/Licencing-gen) - the key generator tool for producing valid HMAC-signed licence keys
