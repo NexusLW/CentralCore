@@ -6,8 +6,8 @@ Aplicación de escritorio para administración de ciudades construida sobre una 
 
 Se incluyen dos módulos de serie: una base de datos de registros ciudadanos y una interfaz de gestión de tráfico que se conecta a un servidor de simulación por WebSocket.
 
-El simulador de tráfico es un proyecto separado: [TrafficSim](https://github.com/marius-db/TrafficSim).
-Las claves de licencia se pueden generar con la herramienta complementaria: [Licencing-gen](https://github.com/marius-db/Licencing-gen).
+El simulador de tráfico es un proyecto separado: [TrafficSim](https://github.com/NexusLW/TrafficSim).
+Las claves de licencia se pueden generar con la herramienta complementaria: [Licencing-gen](https://github.com/NexusLW/Licencing-gen).
 
 ---
 
@@ -313,7 +313,7 @@ Las licencias son claves firmadas con HMAC-SHA256 codificadas en Base64 con el f
 
 El shell usa una sola licencia global almacenada en `centralcore/licences` de Java Prefs. Si no hay ninguna licencia activa, el área de contenido queda cubierta por el velo hasta que se añada una.
 
-Las claves se pueden generar con [Licencing-gen](https://github.com/marius-db/Licencing-gen). Las claves de licencia de demostración para ambos módulos incluidos se insertan automáticamente en la base de datos en el primer arranque, pero son registros de base de datos; la licencia del shell es una clave separada que hay que añadir desde la pantalla de Licencias.
+Las claves se pueden generar con [Licencing-gen](https://github.com/NexusLW/Licencing-gen). Las claves de licencia de demostración para ambos módulos incluidos se insertan automáticamente en la base de datos en el primer arranque, pero son registros de base de datos; la licencia del shell es una clave separada que hay que añadir desde la pantalla de Licencias.
 
 ---
 
@@ -375,5 +375,5 @@ Ejecuta todos los tests con:
 
 ## Repositorios relacionados
 
-- [TrafficSim](https://github.com/marius-db/TrafficSim) - el servidor de simulación Python al que se conecta TrafficModule por WebSocket
-- [Licencing-gen](https://github.com/marius-db/Licencing-gen) - la herramienta generadora de claves de licencia firmadas con HMAC
+- [TrafficSim](https://github.com/NexusLW/TrafficSim) - el servidor de simulación Python al que se conecta TrafficModule por WebSocket
+- [Licencing-gen](https://github.com/NexusLW/Licencing-gen) - la herramienta generadora de claves de licencia firmadas con HMAC
