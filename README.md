@@ -260,7 +260,7 @@ Tables used: `ciudadanos`, `ciudadano_documentos`. The module also migrates the 
 
 ### TrafficModule
 
-Traffic management interface that connects to an external simulation server over WebSocket. The simulator is a separate project: [TrafficSim](https://github.com/marius-db/TrafficSim).
+Traffic management interface that connects to an external simulation server over WebSocket. The simulator is a separate project: [TrafficSim](https://github.com/NexusLW/TrafficSim).
 
 The map is rendered on a JavaFX `Canvas` with an `AnimationTimer` for a real-time render loop. All colors and fonts are pre-cached as static constants to avoid allocations per frame. A density color lookup table (20 steps) is pre-computed at class load time so no `new Color()` calls happen inside the render loop. List refreshes are throttled to every 5 ticks (~400ms) since traffic light cycles are several seconds long.
 
