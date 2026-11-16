@@ -260,7 +260,7 @@ Tablas utilizadas: `ciudadanos`, `ciudadano_documentos`. El módulo también mig
 
 ### TrafficModule
 
-Interfaz de gestión de tráfico que se conecta a un servidor de simulación externo por WebSocket. El simulador es un proyecto separado: [TrafficSim](https://github.com/marius-db/TrafficSim).
+Interfaz de gestión de tráfico que se conecta a un servidor de simulación externo por WebSocket. El simulador es un proyecto separado: [TrafficSim](https://github.com/NexusLW/TrafficSim).
 
 El mapa se renderiza en un `Canvas` de JavaFX con un `AnimationTimer` para el bucle de renderizado en tiempo real. Todos los colores y fuentes están pre-cacheados como constantes estáticas para evitar alocaciones por frame. Una tabla de colores de densidad (20 pasos) se pre-calcula al cargar la clase para que no haya llamadas a `new Color()` dentro del bucle de renderizado. Las actualizaciones de las listas están limitadas a cada 5 ticks (~400ms) porque los ciclos de los semáforos duran varios segundos.
 
